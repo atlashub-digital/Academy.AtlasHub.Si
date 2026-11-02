@@ -1,34 +1,35 @@
 # AtlasHub Academy
 
-Repositório institucional **transversal a todas as formações** da AtlasHub Academy.
+Repositório público **transversal a todas as formações** da AtlasHub Academy. Conteúdos pagos, dados pessoais e assets reservados NÃO são publicados aqui.
 
-## Formação 01 — A Arquitectura da SuperInteligência Agêntica
+## F01 — A Arquitectura da SuperInteligência Agêntica
 
-**Das Operações Reais à Empresa Aumentada**.
+Das Operações Reais à Empresa Aumentada · **R$147** · lives **9, 12 e 19 de novembro de 2026**, 90 minutos cada. Horários, acesso e checkout na Hotmart Club pendentes de configuração e QA.
 
-- Código: `F01`
-- Formato: Atelier de **3 lives de 90 minutos** com materiais e exercícios de apoio.
-- Primeiro encontro previsto/confirmado no planeamento: **05/11/2026**; restantes datas, horários, preço e checkout sujeitos a validação operacional.
-- Cases de origem: **C01–C06**, documentados como cenários didáticos.
-- Os conteúdos integrais de distribuição estão no fluxo editorial da AtlasHub e no ClubOS, não neste repositório público.
+## F02 — Atlas Genesis · Turma 2027
 
-## Formação 02 — Atlas Genesis
+Criar uma empresa ou operação agêntica, desenvolver soluções, prestar serviços e validar modelos de negócio. **R$490**, com parcelamento sujeito à configuração da Hotmart; **R$190 Student**, mediante contacto. Genesis inclui acesso às três lives da F01. Há **3 ateliers preparatórios adicionais** em novembro e dezembro de 2026 e **24 ateliers previstos** de janeiro a março de 2027.
 
-- Código: `F02`
-- Percurso de profissionalização no desenho, implementação, testes e operação de soluções agênticas.
-- Pode reutilizar os Cases da biblioteca sem duplicar o documento-mestre.
+## O que existe aqui
 
-## Organização
+- `catalogo/`: formações, seis Cases e progressão curricular.
+- `formacoes/`: F01 e Genesis, cronogramas e manifestos de sessões.
+- `cases/`: Case Library transversal, com C01–C06 originados na F01.
+- `ofertas/hotmart.json`: política de preços e acessos, **não prova da existência das ofertas na Hotmart**.
+- `kits/`: demos públicas e seguras, instaláveis sem credenciais. **Não substituem** as apostilas, módulos ou projectos pagos.
+- `operacao/HOTMART_TRANSICAO.md`: configurações a testar e futuro caminho para Atlas ClubOS.
+- `GOVERNANCA.md`: versionamento e direitos.
 
-- `catalogo/formacoes.json`: registo oficial das formações.
-- `catalogo/cases.json`: **biblioteca transversal** de Cases com origem `F01`.
-- `formacoes/F01-arquitectura-superinteligencia-agentica/`: percurso pedagógico e referência aos Cases da F01.
-- `formacoes/F02-genesis/`: percurso independente; seleção de Cases ainda sujeita à definição curricular.
-- `cases/`: um descritor por Case, com identificador estável e limites de publicação.
-- `GOVERNANCA.md`: regras de versão, segurança e fonte de verdade.
+## Instalação das demos públicas
 
-**Arquitetura dos sistemas:** GitHub = catálogos e fontes técnicas versionadas; Google Drive = master editorial/media e aprovação; **Atlas ClubOS (LearnHouse)** = cursos e experiência dos membros; Editions = publicações, mantidas separadamente enquanto se avalia o respetivo frontend.
+```bash
+git clone https://github.com/atlashub-digital/Academy.AtlasHub.Si.git
+cd Academy.AtlasHub.Si
+node kits/kit01-diagnostico-operacional/index.mjs
+node kits/kit02-aprovacao-supervisionada/index.mjs
+node --test kits/*/teste.test.mjs
+```
 
-> **Este repositório é público.** Não inserir aqui manuscritos pagos, prompts exclusivos, PDFs de alunos, ficheiros de clientes, dados pessoais, fotografias sem autorização, credenciais ou ligações privadas do Drive. Os materiais internos exigem repositório privado/armazenamento com permissões apropriadas.
+> Durante a revisão da PR, usar a branch `feat/academy-catalogo-f01-case-library`. Node.js 22 recomendado; zero dependências externas. O kit02 é um **simulador determinístico**, não um agente conectado a LLM. Os kits avançados para os alunos têm uma entrega própria sujeita a homologação.
 
-Os catálogos públicos são **índices de planeamento**, não prova de matrícula, curso publicado ou homologação dos conteúdos.
+**Arquitetura:** GitHub = catálogo, código e demos públicas; Drive = documentos e media; Hotmart Club = área de membros inicial; Atlas ClubOS = destino futuro; Editions = publicações digitais independentes.

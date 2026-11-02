@@ -1,0 +1,29 @@
+{
+  "operacao": "Empresa fictícia — varejo omnicanal",
+  "processos": [
+    {
+      "id": "P01",
+      "nome": "Conferência de pedidos",
+      "frequencia_semanal": 80,
+      "tempo_por_ocorrencia_min": 4,
+      "repetitivo": true,
+      "fonte_confirmada": true
+    },
+    {
+      "id": "P02",
+      "nome": "Revisão de devoluções",
+      "frequencia_semanal": 10,
+      "tempo_por_ocorrencia_min": 12,
+      "repetitivo": false,
+      "fonte_confirmada": true
+    },
+    {
+      "id": "P03",
+      "nome": "Atualização manual de catálogo",
+      "frequencia_semanal": 35,
+      "tempo_por_ocorrencia_min": 6,
+      "repetitivo": true,
+      "fonte_confirmada": false
+    }
+  ]
+}

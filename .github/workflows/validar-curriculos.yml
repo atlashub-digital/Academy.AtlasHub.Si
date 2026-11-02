@@ -12,3 +12,4 @@ jobs:
         with:
           node-version: "22"
       - run: node scripts/validar-curriculos.mjs
+      - run: node --test kits/*/teste.test.mjs
