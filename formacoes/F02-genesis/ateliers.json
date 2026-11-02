@@ -1,0 +1,319 @@
+{
+  "schema_version": "1.1",
+  "formacao": "F02",
+  "turma": "Genesis 2027",
+  "inicio_proposto": "2027-01-09",
+  "demo_day_proposto": "2027-03-06",
+  "data_confirmada": false,
+  "ritmo_previsto": 3,
+  "semana_total": 8,
+  "ateliers_total": 24,
+  "progresso_estado": "curriculo_em_planeamento",
+  "semanas": [
+    {
+      "semana": 1,
+      "eixo": "Diagnóstico e oportunidade",
+      "entregavel": "Carta de Realidade e escopo inicial"
+    },
+    {
+      "semana": 2,
+      "eixo": "Arquitectura e especificação",
+      "entregavel": "Blueprint e ficha de agente"
+    },
+    {
+      "semana": 3,
+      "eixo": "Primeiro agente e ferramentas",
+      "entregavel": "Agente supervisionado e documentação"
+    },
+    {
+      "semana": 4,
+      "eixo": "Workflows e orquestração",
+      "entregavel": "Workflow ponta a ponta com limites"
+    },
+    {
+      "semana": 5,
+      "eixo": "Segurança, qualidade e testes",
+      "entregavel": "Relatório de QA e rollback"
+    },
+    {
+      "semana": 6,
+      "eixo": "Operações setoriais",
+      "entregavel": "Dois blueprints e seleção de portfólio"
+    },
+    {
+      "semana": 7,
+      "eixo": "Serviços e negócio",
+      "entregavel": "Proposta de serviço reproduzível"
+    },
+    {
+      "semana": 8,
+      "eixo": "Demonstração e portfólio",
+      "entregavel": "Protótipo supervisionado e apresentação"
+    }
+  ],
+  "ateliers": [
+    {
+      "id": "F02-AT01",
+      "semana": 1,
+      "posicao_na_semana": 1,
+      "titulo": "Empresa Aumentada e mercado de soluções",
+      "estado": "planeado",
+      "publicado_clubos": false,
+      "material_aprovado": false
+    },
+    {
+      "id": "F02-AT02",
+      "semana": 1,
+      "posicao_na_semana": 2,
+      "titulo": "Diagnóstico de processos e oportunidades",
+      "estado": "planeado",
+      "publicado_clubos": false,
+      "material_aprovado": false
+    },
+    {
+      "id": "F02-AT03",
+      "semana": 1,
+      "posicao_na_semana": 3,
+      "titulo": "Mapa AS-IS, baseline e escopo",
+      "estado": "planeado",
+      "publicado_clubos": false,
+      "material_aprovado": false
+    },
+    {
+      "id": "F02-AT04",
+      "semana": 2,
+      "posicao_na_semana": 1,
+      "titulo": "Desenho TO-BE e camadas de infraestrutura",
+      "estado": "planeado",
+      "publicado_clubos": false,
+      "material_aprovado": false
+    },
+    {
+      "id": "F02-AT05",
+      "semana": 2,
+      "posicao_na_semana": 2,
+      "titulo": "Identidade, fontes de verdade, memória, dados e eventos",
+      "estado": "planeado",
+      "publicado_clubos": false,
+      "material_aprovado": false
+    },
+    {
+      "id": "F02-AT06",
+      "semana": 2,
+      "posicao_na_semana": 3,
+      "titulo": "Seleção regra/automação/agente e missão",
+      "estado": "planeado",
+      "publicado_clubos": false,
+      "material_aprovado": false
+    },
+    {
+      "id": "F02-AT07",
+      "semana": 3,
+      "posicao_na_semana": 1,
+      "titulo": "Agente de leitura em ambiente de teste",
+      "estado": "planeado",
+      "publicado_clubos": false,
+      "material_aprovado": false
+    },
+    {
+      "id": "F02-AT08",
+      "semana": 3,
+      "posicao_na_semana": 2,
+      "titulo": "Conector autorizado e fallback manual",
+      "estado": "planeado",
+      "publicado_clubos": false,
+      "material_aprovado": false
+    },
+    {
+      "id": "F02-AT09",
+      "semana": 3,
+      "posicao_na_semana": 3,
+      "titulo": "Contexto, logs, qualidade e reprodutibilidade",
+      "estado": "planeado",
+      "publicado_clubos": false,
+      "material_aprovado": false
+    },
+    {
+      "id": "F02-AT10",
+      "semana": 4,
+      "posicao_na_semana": 1,
+      "titulo": "Sequência de missões e estados",
+      "estado": "planeado",
+      "publicado_clubos": false,
+      "material_aprovado": false
+    },
+    {
+      "id": "F02-AT11",
+      "semana": 4,
+      "posicao_na_semana": 2,
+      "titulo": "Integração com documentos e processos",
+      "estado": "planeado",
+      "publicado_clubos": false,
+      "material_aprovado": false
+    },
+    {
+      "id": "F02-AT12",
+      "semana": 4,
+      "posicao_na_semana": 3,
+      "titulo": "Revisão humana e idempotência",
+      "estado": "planeado",
+      "publicado_clubos": false,
+      "material_aprovado": false
+    },
+    {
+      "id": "F02-AT13",
+      "semana": 5,
+      "posicao_na_semana": 1,
+      "titulo": "Isolamento, permissões e privacidade",
+      "estado": "planeado",
+      "publicado_clubos": false,
+      "material_aprovado": false
+    },
+    {
+      "id": "F02-AT14",
+      "semana": 5,
+      "posicao_na_semana": 2,
+      "titulo": "Prompt injection, ações proibidas e recuperação",
+      "estado": "planeado",
+      "publicado_clubos": false,
+      "material_aprovado": false
+    },
+    {
+      "id": "F02-AT15",
+      "semana": 5,
+      "posicao_na_semana": 3,
+      "titulo": "Testes de falha, observabilidade e GO/NO-GO",
+      "estado": "planeado",
+      "publicado_clubos": false,
+      "material_aprovado": false
+    },
+    {
+      "id": "F02-AT16",
+      "semana": 6,
+      "posicao_na_semana": 1,
+      "titulo": "Varejo, mercados e stock",
+      "estado": "planeado",
+      "publicado_clubos": false,
+      "material_aprovado": false
+    },
+    {
+      "id": "F02-AT17",
+      "semana": 6,
+      "posicao_na_semana": 2,
+      "titulo": "Serviços documentais: contabilidade e imobiliária",
+      "estado": "planeado",
+      "publicado_clubos": false,
+      "material_aprovado": false
+    },
+    {
+      "id": "F02-AT18",
+      "semana": 6,
+      "posicao_na_semana": 3,
+      "titulo": "Conteúdo, farmácia e cenários regulados",
+      "estado": "planeado",
+      "publicado_clubos": false,
+      "material_aprovado": false
+    },
+    {
+      "id": "F02-AT19",
+      "semana": 7,
+      "posicao_na_semana": 1,
+      "titulo": "Qualificação de oportunidades e diagnóstico",
+      "estado": "planeado",
+      "publicado_clubos": false,
+      "material_aprovado": false
+    },
+    {
+      "id": "F02-AT20",
+      "semana": 7,
+      "posicao_na_semana": 2,
+      "titulo": "Orçamentação, custos e modalidade de serviço",
+      "estado": "planeado",
+      "publicado_clubos": false,
+      "material_aprovado": false
+    },
+    {
+      "id": "F02-AT21",
+      "semana": 7,
+      "posicao_na_semana": 3,
+      "titulo": "Proposta, contratos, SLA, aceite e handover",
+      "estado": "planeado",
+      "publicado_clubos": false,
+      "material_aprovado": false
+    },
+    {
+      "id": "F02-AT22",
+      "semana": 8,
+      "posicao_na_semana": 1,
+      "titulo": "Estabilização do piloto e documentação",
+      "estado": "planeado",
+      "publicado_clubos": false,
+      "material_aprovado": false
+    },
+    {
+      "id": "F02-AT23",
+      "semana": 8,
+      "posicao_na_semana": 2,
+      "titulo": "Ensaio comercial e revisão entre pares",
+      "estado": "planeado",
+      "publicado_clubos": false,
+      "material_aprovado": false
+    },
+    {
+      "id": "F02-AT24",
+      "semana": 8,
+      "posicao_na_semana": 3,
+      "titulo": "Apresentação do projeto e plano de continuidade",
+      "estado": "planeado",
+      "publicado_clubos": false,
+      "material_aprovado": false
+    }
+  ],
+  "ateliers_preparatorios_adicionais": [
+    {
+      "id": "F02-PRE01",
+      "titulo": "Da ideia ao negócio agêntico: escolher nicho, problema, cliente e oferta",
+      "data_proposta": "2026-11-28",
+      "mes": "2026-11",
+      "entregavel": "Mapa do negócio e oportunidade validável",
+      "estado": "proposto_horario_pendente",
+      "publicado_hotmart": false
+    },
+    {
+      "id": "F02-PRE02",
+      "titulo": "Montar o ambiente e instalar o primeiro kit de agente",
+      "data_proposta": "2026-12-05",
+      "mes": "2026-12",
+      "entregavel": "Ambiente local configurado e protótipo executado",
+      "estado": "proposto_horario_pendente",
+      "publicado_hotmart": false
+    },
+    {
+      "id": "F02-PRE03",
+      "titulo": "Produto, custos, proposta e primeiro cliente piloto",
+      "data_proposta": "2026-12-19",
+      "mes": "2026-12",
+      "entregavel": "Oferta agêntica inicial, custos e plano de validação",
+      "estado": "proposto_horario_pendente",
+      "publicado_hotmart": false
+    }
+  ],
+  "contagem_total_eventos_previstos": 27,
+  "ateliers_preparatorios_adicionais_aos_24": true,
+  "inclui_acesso_lives_f01": [
+    "F01-L01",
+    "F01-L02",
+    "F01-L03"
+  ],
+  "plataforma": "Hotmart Club transitorio",
+  "preco_standard_brl": 490,
+  "preco_student_brl": 190,
+  "student_concessao": "contacto_equipa_sem_exigencia_documental_automatica",
+  "parcelamento": "sujeito_configuracao_e_simulacao_checkout",
+  "foco": [
+    "montar_empresa_de_solucoes_agenticas",
+    "vender_implementacoes_e_operacao_gerida",
+    "aumentar_margem_operacional_com_arquitectura_segura"
+  ],
+  "aviso_resultados": "sem_promessa_de_lucro_ou_rentabilidade_garantida"
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "plataforma_temporaria": "Hotmart Club",
+  "plataforma_destino": "Atlas ClubOS",
+  "status": "politica_definida_configuracao_hotmart_pendente",
+  "produtos": [
+    {
+      "codigo": "F01",
+      "nome": "Atelier — A Arquitectura da SuperInteligência Agêntica",
+      "tipo": "curso_online",
+      "preco_brl": 147,
+      "moeda": "BRL",
+      "pagamento": "unico",
+      "parcelamento": "nao_especificado",
+      "liberacao": "apos_pagamento_aprovado",
+      "area_membros": "Hotmart Club",
+      "datas_lives": [
+        "2026-11-09",
+        "2026-11-12",
+        "2026-11-19"
+      ],
+      "horarios": "por_definir",
+      "status_hotmart": "nao_verificado",
+      "entregaveis": "aprovacao_previa_necessaria",
+      "inclui_suporte_individual_ilimitado": false
+    },
+    {
+      "codigo": "F02",
+      "nome": "Atlas Genesis — Turma 2027",
+      "tipo": "curso_online",
+      "preco_brl": 490,
+      "moeda": "BRL",
+      "parcelamento": "solicitar_configuracao_no_checkout_e_testar",
+      "estudante": {
+        "preco_brl": 190,
+        "via": "contacto_directo_e_oferta_restrita",
+        "documentacao": "sem_comprovativo_obrigatorio",
+        "status": "oferta_por_configurar"
+      },
+      "area_membros": "Hotmart Club",
+      "acesso_F01_lives_incluido": true,
+      "ateliers_preparatorios": 3,
+      "ateliers_2027": 24,
+      "calendario": [
+        "2026-11",
+        "2026-12",
+        "2027-01",
+        "2027-02",
+        "2027-03"
+      ],
+      "status_hotmart": "nao_verificado"
+    }
+  ],
+  "vinculacao_entitlements": "comprador_F02_recebe_permissao_F01_lives_sem_cobranca_extra_apenas_apos_fluxo_aprovado",
+  "migra_clubos": "exportar_matriculas_associadas_a_pedidos_validados_com_consentimento_reconciliar_antes_de_cortar_acesso",
+  "notas": [
+    "no checkout, esclarecer prazos de entrega, politica de reembolso e suporte",
+    "testar acesso F02 -> F01 no Hotmart Club com conta de teste",
+    "nao inventar URLs de compra, ID de produtos ou parcelas"
+  ]
+}

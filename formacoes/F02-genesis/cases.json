@@ -1,0 +1,13 @@
+{
+  "formacao": "F02",
+  "status": "selecao_pedagogica_pendente",
+  "cases_aprovados": [],
+  "catalogo_reutilizavel": [
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05",
+    "C06"
+  ]
+}

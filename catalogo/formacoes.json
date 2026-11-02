@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.2",
+  "formacoes": [
+    {
+      "id": "F01",
+      "slug": "arquitectura-superinteligencia-agentica",
+      "titulo": "A Arquitectura da SuperInteligência Agêntica",
+      "subtitulo": "Das Operações Reais à Empresa Aumentada",
+      "tipo": "atelier",
+      "status": "planeamento",
+      "primeira_live": "2026-11-09",
+      "duracao_lives_minutos": [
+        90,
+        90,
+        90
+      ],
+      "acesso_comunidade_meses": 12,
+      "cases": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06"
+      ],
+      "conteudo_restrito": true,
+      "curriculo_manifesto": "formacoes/F01-arquitectura-superinteligencia-agentica/aulas.json",
+      "criterios_avaliacao": "formacoes/F01-arquitectura-superinteligencia-agentica/README.md",
+      "lives_data_estado": "09_12_19_novembro_definidas_pela_direcao_horarios_pendentes",
+      "preco_brl": 147,
+      "plataforma_entrega": "Hotmart Club (transitorio)",
+      "oferta_estado": "definida_na_direcao_hotmart_nao_configurada",
+      "entregaveis_repositorios": "kits_instalaveis_a_homologar",
+      "acompanhamento_personalizado": "disponivel_mediante_agendamento_condicoes_a_definir"
+    },
+    {
+      "id": "F02",
+      "slug": "genesis",
+      "titulo": "Atlas Genesis — Turma 2027",
+      "tipo": "percurso_profissional",
+      "status": "planeamento",
+      "duracao_semanas_proposta": 8,
+      "ateliers_previstos": 24,
+      "cases_selecionados": [],
+      "biblioteca_cases_disponivel": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06"
+      ],
+      "conteudo_restrito": true,
+      "curriculo_manifesto": "formacoes/F02-genesis/ateliers.json",
+      "inicio_proposto": "2027-01-09",
+      "demo_day_proposto": "2027-03-06",
+      "inicio_confirmado": false,
+      "preco_brl": 490,
+      "estudante_preco_brl": 190,
+      "estudante_canal": "contacto_com_equipa",
+      "parcelamento": "disponivel_se_configurado_checkout_hotmart",
+      "ateliers_preparatorios": 3,
+      "ateliers_preparatorios_adicionais_aos_24": true,
+      "inclui_acesso_lives_f01": true,
+      "plataforma_entrega": "Hotmart Club (transitorio)",
+      "oferta_estado": "definida_na_direcao_hotmart_nao_configurada",
+      "foco": "criar_empresa_agentica_ou_operacao_agentica_profissional"
+    }
+  ]
+}

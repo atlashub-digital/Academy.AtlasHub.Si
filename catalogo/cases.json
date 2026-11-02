@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "cases": [
+    {
+      "id": "C01",
+      "slug": "c01-tres-mercados",
+      "titulo": "Ecossistema dos Três Mercados",
+      "sinopse": "Gestão integrada de lojas, stock, compras e operações",
+      "origem_formacao": "F01",
+      "tipo": "cenario_ficticio_didatico",
+      "versao_editorial_referencia": "V1.01_REV",
+      "estado": "em_revisao",
+      "publicavel": false,
+      "uso_em_formacoes": [
+        "F01"
+      ],
+      "referencia_interna": "painel AtlasHub Academy no Google Drive"
+    },
+    {
+      "id": "C02",
+      "slug": "c02-imobiliaria",
+      "titulo": "Imobiliária Aumentada",
+      "sinopse": "Leads, imóveis, CRM, agenda, documentação e supervisão",
+      "origem_formacao": "F01",
+      "tipo": "cenario_ficticio_didatico",
+      "versao_editorial_referencia": "V1.00_REV",
+      "estado": "em_revisao",
+      "publicavel": false,
+      "uso_em_formacoes": [
+        "F01"
+      ],
+      "referencia_interna": "painel AtlasHub Academy no Google Drive"
+    },
+    {
+      "id": "C03",
+      "slug": "c03-farmacias",
+      "titulo": "Rede de Farmácias Aumentada",
+      "sinopse": "Disponibilidade, lote, validade, logística e responsabilidade profissional",
+      "origem_formacao": "F01",
+      "tipo": "cenario_ficticio_didatico",
+      "versao_editorial_referencia": "V1.00_REV",
+      "estado": "em_revisao",
+      "publicavel": false,
+      "uso_em_formacoes": [
+        "F01"
+      ],
+      "referencia_interna": "painel AtlasHub Academy no Google Drive"
+    },
+    {
+      "id": "C04",
+      "slug": "c04-contabilidade",
+      "titulo": "Contabilidade Aumentada",
+      "sinopse": "Fluxos documentais, pendências, segregação de clientes e revisão técnica",
+      "origem_formacao": "F01",
+      "tipo": "cenario_ficticio_didatico",
+      "versao_editorial_referencia": "V1.00_REV",
+      "estado": "em_revisao",
+      "publicavel": false,
+      "uso_em_formacoes": [
+        "F01"
+      ],
+      "referencia_interna": "painel AtlasHub Academy no Google Drive"
+    },
+    {
+      "id": "C05",
+      "slug": "c05-criador-conteudo",
+      "titulo": "Criador de Conteúdo Aumentado",
+      "sinopse": "Redação, criação, distribuição, direitos, comunidade e negócio",
+      "origem_formacao": "F01",
+      "tipo": "cenario_ficticio_didatico",
+      "versao_editorial_referencia": "V2.00_REV",
+      "estado": "em_revisao",
+      "publicavel": false,
+      "uso_em_formacoes": [
+        "F01"
+      ],
+      "referencia_interna": "painel AtlasHub Academy no Google Drive"
+    },
+    {
+      "id": "C06",
+      "slug": "c06-varejo-omnicanal",
+      "titulo": "Varejo Omnicanal Aumentado",
+      "sinopse": "Loja física, Mercado Livre, Shopee, inventário e reservas seguras",
+      "origem_formacao": "F01",
+      "tipo": "cenario_ficticio_didatico",
+      "versao_editorial_referencia": "V1.00_REV",
+      "estado": "em_revisao",
+      "publicavel": false,
+      "uso_em_formacoes": [
+        "F01"
+      ],
+      "referencia_interna": "painel AtlasHub Academy no Google Drive"
+    }
+  ]
+}
