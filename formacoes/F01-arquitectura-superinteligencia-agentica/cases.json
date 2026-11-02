@@ -1,0 +1,15 @@
+{
+  "formacao": "F01",
+  "titulo": "A Arquitectura da SuperInteligência Agêntica",
+  "origem_dos_cases": true,
+  "versoes_de_referencia": {
+    "C01": "V1.01_REV",
+    "C02": "V1.00_REV",
+    "C03": "V1.00_REV",
+    "C04": "V1.00_REV",
+    "C05": "V2.00_REV",
+    "C06": "V1.00_REV"
+  },
+  "status": "referencias_em_revisao",
+  "publicacao_clubos": false
+}
