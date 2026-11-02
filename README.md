@@ -25,6 +25,7 @@ Criar uma empresa ou operação agêntica, desenvolver soluções, prestar servi
 ```bash
 git clone https://github.com/atlashub-digital/Academy.AtlasHub.Si.git
 cd Academy.AtlasHub.Si
+git switch feat/academy-catalogo-f01-case-library
 node kits/kit01-diagnostico-operacional/index.mjs
 node kits/kit02-aprovacao-supervisionada/index.mjs
 node --test kits/*/teste.test.mjs
