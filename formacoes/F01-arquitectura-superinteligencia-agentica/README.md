@@ -1,22 +1,28 @@
 # F01 — A Arquitectura da SuperInteligência Agêntica
 
-## Das Operações Reais à Empresa Aumentada
+**Das Operações Reais à Empresa Aumentada** · formação executiva de iniciação aplicada.
 
-**Código estável:** `F01`  
-**Formato:** 3 lives de 90 minutos com materiais, prompts, quizzes, documentos estratégicos e projetos-modelo; 12 meses de comunidade Atlas Club, conforme oferta homologada.
+## Objectivo
+Capacitar participantes para diagnosticar uma operação, desenhar a arquitectura que liga pessoas, dados, regras e agentes supervisionados e especificar um primeiro piloto testável. Não equivale à instalação completa de uma infraestrutura produtiva.
 
-## Percurso pedagógico
+## Estrutura — 3 encontros de 90 minutos
 
-1. Diagnosticar operações reais, processos, dados e responsabilidades.
-2. Desenhar a arquitectura de agentes, ferramentas, fontes de verdade e supervisão humana.
-3. Especificar e testar o primeiro piloto, com riscos, custos, limites e critérios GO/NO-GO.
+| Sessão | Tema | Produto de aprendizagem |
+| --- | --- | --- |
+| L01 | A nova arquitectura da empresa | Carta de Realidade e mapa AS-IS |
+| L02 | Construir a infraestrutura | Blueprint TO-BE, missão de agente e permissões |
+| L03 | Do protótipo à operação | Caderno do Arquiteto, plano de piloto e GO/NO-GO |
 
-## Cases de origem desta formação
+**Calendário:** 05/11/2026 como início previsto e acordado no programa. 12/11 e 19/11 são **propostas ainda não homologadas**. Consulte `aulas.json` para os estados de cada encontro.
 
-C01 Três Mercados · C02 Imobiliária · C03 Farmácias · C04 Contabilidade · C05 Criador de Conteúdo · C06 Varejo Omnicanal.
+## Metodologia e biblioteca
 
-A F01 **referencia** a Biblioteca Central; não mantém cópias dos masters. O manifesto `cases.json` estabelece as referências curriculares para esta edição de planeamento.
+Seis Cases C01–C06, originados nesta formação, disponíveis como referências na AtlasHub Case Library e não duplicados aqui. Exercícios com dados fictícios, análise AS-IS/TO-BE, prompts, matriz de autorizações, testes de falha, métricas e revisão humana. As versões e a distribuição dependem de QA editorial, técnico, de marca e de direitos.
 
-## Entrega e estado
+## Conclusão — rubric proposta
 
-Os masters, media, quizzes e apostilas em revisão permanecem no Drive com acesso controlado. Só materiais aprovados são exportados para o ClubOS. Datas e condições comerciais finais dependem da operação de inscrição.
+O participante deverá apresentar: mapa da operação, arquitectura futura, ficha de um agente supervisionado, cinco testes de fronteira, plano inicial de seis semanas, indicadores e decisão GO/NO-GO. Quiz de aprendizagem previsto. Certificação só mediante homologação da avaliação e do mecanismo operacional no ClubOS.
+
+## Entrega
+
+Atlas ClubOS para conteúdos aprovados, atividades e comunidade conforme condições comerciais homologadas. Este repositório é **público** e não contém módulos pagos, prompts proprietários ou materiais privados do Drive. A oferta comercial, os preços e as ligações de checkout não são aqui declarados activos.

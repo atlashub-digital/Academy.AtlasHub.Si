@@ -1,0 +1,14 @@
+name: Validar catálogos e currículos
+on:
+  push:
+    branches: [main, "feat/**"]
+  pull_request:
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: node scripts/validar-curriculos.mjs

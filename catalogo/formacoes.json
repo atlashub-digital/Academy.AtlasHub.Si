@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "formacoes": [
     {
       "id": "F01",
@@ -23,12 +23,15 @@
         "C05",
         "C06"
       ],
-      "conteudo_restrito": true
+      "conteudo_restrito": true,
+      "curriculo_manifesto": "formacoes/F01-arquitectura-superinteligencia-agentica/aulas.json",
+      "criterios_avaliacao": "formacoes/F01-arquitectura-superinteligencia-agentica/README.md",
+      "lives_data_estado": "primeira_confirmada_demais_propostas"
     },
     {
       "id": "F02",
       "slug": "genesis",
-      "titulo": "Atlas Genesis — Turma Genesis",
+      "titulo": "Atlas Genesis — Turma 2027",
       "tipo": "percurso_profissional",
       "status": "planeamento",
       "duracao_semanas_proposta": 8,
@@ -42,7 +45,11 @@
         "C05",
         "C06"
       ],
-      "conteudo_restrito": true
+      "conteudo_restrito": true,
+      "curriculo_manifesto": "formacoes/F02-genesis/ateliers.json",
+      "inicio_proposto": "2027-01-09",
+      "demo_day_proposto": "2027-03-06",
+      "inicio_confirmado": false
     }
   ]
 }

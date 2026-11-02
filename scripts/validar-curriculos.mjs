@@ -1,0 +1,18 @@
+import fs from "node:fs";
+const read = p => JSON.parse(fs.readFileSync(new URL("../" + p, import.meta.url), "utf8"));
+const forms=read("catalogo/formacoes.json").formacoes;
+const cases=read("catalogo/cases.json").cases;
+const f01=read("formacoes/F01-arquitectura-superinteligencia-agentica/aulas.json");
+const f02=read("formacoes/F02-genesis/ateliers.json");
+const assert=(x,msg)=>{ if(!x) throw new Error(msg); };
+assert(forms.length===2,"São esperadas duas formações no catálogo inicial");
+assert(forms[0].id==="F01" && forms[1].id==="F02","IDs de formação inválidos");
+assert(forms[0].titulo==="A Arquitectura da SuperInteligência Agêntica","Nome oficial da F01 não corresponde");
+assert(cases.length===6 && new Set(cases.map(c=>c.id)).size===6,"Case Library inválida");
+assert(cases.every(c=>c.origem_formacao==="F01"),"Origem dos Cases inválida");
+assert(f01.formacao==="F01" && f01.aulas.length===3,"F01 exige três lives");
+assert(f01.aulas.every(a=>a.duracao_min===90),"Duração das lives F01 inválida");
+assert(f02.formacao==="F02" && f02.ateliers.length===24,"Genesis exige 24 ateliers");
+assert(f02.ateliers.every((a,i)=>a.semana===Math.floor(i/3)+1),"Semanas Genesis inválidas");
+assert(!f02.ateliers.some(a=>a.publicado_clubos),"Não marcar publicação sem prova");
+console.log("PASS: F01 · F02 2027 · Case Library 6/6 · 3 lives · 24 ateliers");

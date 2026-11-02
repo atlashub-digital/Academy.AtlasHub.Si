@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "formacao": "F01",
+  "titulo": "A Arquitectura da SuperInteligência Agêntica",
+  "subtitulo": "Das Operações Reais à Empresa Aumentada",
+  "status": "curriculo_em_preparacao",
+  "avaliacao": "rubrica_de_projeto_e_quiz_sujeita_a_homologacao",
+  "aulas": [
+    {
+      "id": "F01-L01",
+      "titulo": "A nova arquitectura da empresa",
+      "data": "2026-11-05",
+      "data_estado": "planeamento_confirmado_pela_direcao",
+      "duracao_min": 90,
+      "foco": [
+        "Empresa Aumentada e diferença entre ferramenta e arquitectura",
+        "Diagnóstico de processos, dados e responsáveis",
+        "Regras, automações e agentes",
+        "Mapa AS-IS e oportunidades"
+      ],
+      "cases_referencia": [
+        "C01",
+        "C02",
+        "C05"
+      ],
+      "entregavel": "Carta de Realidade, mapa AS-IS e matriz de oportunidades",
+      "estado": "em_preparacao",
+      "publicado_clubos": false
+    },
+    {
+      "id": "F01-L02",
+      "titulo": "Construir a infraestrutura",
+      "data": "2026-11-12",
+      "data_estado": "proposta_nao_confirmada",
+      "duracao_min": 90,
+      "foco": [
+        "Mapa TO-BE",
+        "Camadas e fontes de verdade",
+        "Fichas de agentes, permissões, ferramentas e prompts",
+        "Revisão humana e testes de fronteira"
+      ],
+      "cases_referencia": [
+        "C03",
+        "C04",
+        "C06"
+      ],
+      "entregavel": "Blueprint TO-BE, carta do agente e matriz de autorização",
+      "estado": "em_preparacao",
+      "publicado_clubos": false
+    },
+    {
+      "id": "F01-L03",
+      "titulo": "Do protótipo à operação",
+      "data": "2026-11-19",
+      "data_estado": "proposta_nao_confirmada",
+      "duracao_min": 90,
+      "foco": [
+        "Piloto supervisionado",
+        "Falhas, segurança e rollback",
+        "Plano de seis semanas, custos e KPIs",
+        "Demonstração, quiz e decisão GO/NO-GO"
+      ],
+      "cases_referencia": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06"
+      ],
+      "entregavel": "Caderno do Arquiteto, plano de piloto e checklist GO/NO-GO",
+      "estado": "em_preparacao",
+      "publicado_clubos": false
+    }
+  ]
+}
