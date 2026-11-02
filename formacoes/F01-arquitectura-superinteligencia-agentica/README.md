@@ -1,28 +1,31 @@
 # F01 — A Arquitectura da SuperInteligência Agêntica
 
-**Das Operações Reais à Empresa Aumentada** · formação executiva de iniciação aplicada.
+**Das Operações Reais à Empresa Aumentada** · Atelier prático · **R$ 147** (valor comercial definido, configuração Hotmart pendente).
 
-## Objectivo
-Capacitar participantes para diagnosticar uma operação, desenhar a arquitectura que liga pessoas, dados, regras e agentes supervisionados e especificar um primeiro piloto testável. Não equivale à instalação completa de uma infraestrutura produtiva.
+## Calendário: três lives de 90 minutos
 
-## Estrutura — 3 encontros de 90 minutos
+| Live | Data | Tema | Entregável |
+| --- | --- | --- | --- |
+| F01-L01 | **09/11/2026** | Diagnóstico e nova arquitectura | Carta de Realidade, mapa AS-IS e prompts de levantamento |
+| F01-L02 | **12/11/2026** | Fontes, integrações, agentes e permissões | Blueprint TO-BE, ficha do agente e kit instalável de demonstração |
+| F01-L03 | **19/11/2026** | Piloto, testes, métricas e implementação | Caderno do Arquiteto, checklist de segurança, plano de seis semanas |
 
-| Sessão | Tema | Produto de aprendizagem |
-| --- | --- | --- |
-| L01 | A nova arquitectura da empresa | Carta de Realidade e mapa AS-IS |
-| L02 | Construir a infraestrutura | Blueprint TO-BE, missão de agente e permissões |
-| L03 | Do protótipo à operação | Caderno do Arquiteto, plano de piloto e GO/NO-GO |
+Datas definidas pela direção; **horários, link de transmissão e checkout pendentes de configuração**.
 
-**Calendário:** 05/11/2026 como início previsto e acordado no programa. 12/11 e 19/11 são **propostas ainda não homologadas**. Consulte `aulas.json` para os estados de cada encontro.
+## Seis Cases aplicados
 
-## Metodologia e biblioteca
+C01 Mercados, C02 Imobiliária, C03 Farmácias, C04 Contabilidade, C05 Criador de Conteúdo, C06 Varejo Omnicanal. Todos originários da F01 e armazenados como activos da Case Library. Cada aula selecciona um ou mais, sem duplicar os masters.
 
-Seis Cases C01–C06, originados nesta formação, disponíveis como referências na AtlasHub Case Library e não duplicados aqui. Exercícios com dados fictícios, análise AS-IS/TO-BE, prompts, matriz de autorizações, testes de falha, métricas e revisão humana. As versões e a distribuição dependem de QA editorial, técnico, de marca e de direitos.
+## Entrega efectiva a preparar
 
-## Conclusão — rubric proposta
+- Guias de diagnóstico AS-IS/TO-BE, templates e mapas de processos;
+- Biblioteca de prompts com contexto e limites de acesso;
+- **Kits clonáveis/instaláveis**, com README, dados sintéticos, exemplo de `.env.example`, validação e testes. Não prometer que cada Case tem um repo próprio antes de realmente existir;
+- Exercícios de adaptação setorial, quiz, Caderno do Arquiteto e plano piloto;
+- Acompanhamento personalizado **disponível mediante agendamento e condições divulgadas**, sem prometer sessões individuais ilimitadas ao preço de R$147.
 
-O participante deverá apresentar: mapa da operação, arquitectura futura, ficha de um agente supervisionado, cinco testes de fronteira, plano inicial de seis semanas, indicadores e decisão GO/NO-GO. Quiz de aprendizagem previsto. Certificação só mediante homologação da avaliação e do mecanismo operacional no ClubOS.
+## Operação e acesso
 
-## Entrega
+Hotmart Club é a área de membros inicial; depois haverá migração acompanhada para o Atlas ClubOS. Inscritos na Genesis F02 têm acesso incluído às lives F01 sem nova compra. A oferta F01 pode manter 12 meses de Atlas Club conforme condições previamente aprovadas, **não equivale a suporte 1:1 ilimitado**.
 
-Atlas ClubOS para conteúdos aprovados, atividades e comunidade conforme condições comerciais homologadas. Este repositório é **público** e não contém módulos pagos, prompts proprietários ou materiais privados do Drive. A oferta comercial, os preços e as ligações de checkout não são aqui declarados activos.
+O acesso efectivo, gravações e materiais dependem de publicação e teste. Este repositório é público e só inclui índices, material de demonstração autorizado e especificações de entrega, não recursos pagos completos.

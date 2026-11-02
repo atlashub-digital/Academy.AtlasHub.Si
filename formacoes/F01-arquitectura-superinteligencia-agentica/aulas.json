@@ -1,16 +1,16 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "formacao": "F01",
   "titulo": "A Arquitectura da SuperInteligência Agêntica",
   "subtitulo": "Das Operações Reais à Empresa Aumentada",
-  "status": "curriculo_em_preparacao",
+  "status": "curriculo_em_preparacao_com_datas_definidas",
   "avaliacao": "rubrica_de_projeto_e_quiz_sujeita_a_homologacao",
   "aulas": [
     {
       "id": "F01-L01",
       "titulo": "A nova arquitectura da empresa",
-      "data": "2026-11-05",
-      "data_estado": "planeamento_confirmado_pela_direcao",
+      "data": "2026-11-09",
+      "data_estado": "definida_pela_direcao_horario_pendente",
       "duracao_min": 90,
       "foco": [
         "Empresa Aumentada e diferença entre ferramenta e arquitectura",
@@ -31,7 +31,7 @@
       "id": "F01-L02",
       "titulo": "Construir a infraestrutura",
       "data": "2026-11-12",
-      "data_estado": "proposta_nao_confirmada",
+      "data_estado": "mantida_pela_direcao_horario_pendente",
       "duracao_min": 90,
       "foco": [
         "Mapa TO-BE",
@@ -52,7 +52,7 @@
       "id": "F01-L03",
       "titulo": "Do protótipo à operação",
       "data": "2026-11-19",
-      "data_estado": "proposta_nao_confirmada",
+      "data_estado": "mantida_pela_direcao_horario_pendente",
       "duracao_min": 90,
       "foco": [
         "Piloto supervisionado",
@@ -72,5 +72,19 @@
       "estado": "em_preparacao",
       "publicado_clubos": false
     }
-  ]
+  ],
+  "plataforma": "Hotmart Club transitorio",
+  "preco_brl": 147,
+  "acesso_genesis_incluso": true,
+  "material_minimo": [
+    "mapa_as_is",
+    "carta_realidade",
+    "blueprint_to_be",
+    "prompts_para_analise",
+    "repo_demo_instalavel",
+    "exercicios_setoriais",
+    "quiz",
+    "plano_piloto"
+  ],
+  "acompanhamento_personalizado": "disponivel_por_agendamento_conforme_condicoes_divulgadas"
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "formacao": "F02",
   "turma": "Genesis 2027",
   "inicio_proposto": "2027-01-09",
@@ -268,5 +268,52 @@
       "publicado_clubos": false,
       "material_aprovado": false
     }
-  ]
+  ],
+  "ateliers_preparatorios_adicionais": [
+    {
+      "id": "F02-PRE01",
+      "titulo": "Da ideia ao negócio agêntico: escolher nicho, problema, cliente e oferta",
+      "data_proposta": "2026-11-28",
+      "mes": "2026-11",
+      "entregavel": "Mapa do negócio e oportunidade validável",
+      "estado": "proposto_horario_pendente",
+      "publicado_hotmart": false
+    },
+    {
+      "id": "F02-PRE02",
+      "titulo": "Montar o ambiente e instalar o primeiro kit de agente",
+      "data_proposta": "2026-12-05",
+      "mes": "2026-12",
+      "entregavel": "Ambiente local configurado e protótipo executado",
+      "estado": "proposto_horario_pendente",
+      "publicado_hotmart": false
+    },
+    {
+      "id": "F02-PRE03",
+      "titulo": "Produto, custos, proposta e primeiro cliente piloto",
+      "data_proposta": "2026-12-19",
+      "mes": "2026-12",
+      "entregavel": "Oferta agêntica inicial, custos e plano de validação",
+      "estado": "proposto_horario_pendente",
+      "publicado_hotmart": false
+    }
+  ],
+  "contagem_total_eventos_previstos": 27,
+  "ateliers_preparatorios_adicionais_aos_24": true,
+  "inclui_acesso_lives_f01": [
+    "F01-L01",
+    "F01-L02",
+    "F01-L03"
+  ],
+  "plataforma": "Hotmart Club transitorio",
+  "preco_standard_brl": 490,
+  "preco_student_brl": 190,
+  "student_concessao": "contacto_equipa_sem_exigencia_documental_automatica",
+  "parcelamento": "sujeito_configuracao_e_simulacao_checkout",
+  "foco": [
+    "montar_empresa_de_solucoes_agenticas",
+    "vender_implementacoes_e_operacao_gerida",
+    "aumentar_margem_operacional_com_arquitectura_segura"
+  ],
+  "aviso_resultados": "sem_promessa_de_lucro_ou_rentabilidade_garantida"
 }
